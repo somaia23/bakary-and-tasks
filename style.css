@@ -1,0 +1,71 @@
+*{margin:0;padding:0;box-sizing:border-box}
+/* body{font-family: serif;color:#333;line-height:1.6} */
+.container{max-width:1100px;margin:0 auto;padding:20px}
+
+.hero{
+    position:relative;
+    /* background:url('https://via.placeholder.com/1600x800') center/cover; */
+    height:130vh;
+    color:#fff}
+.overlay{
+     position:absolute;inset:0; 
+    background-image:url("https://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg");
+    background-position: center center;
+    opacity: 1;
+}
+.navbar{position:relative;display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.nav-links{list-style:none;display:flex;gap:20px}
+.nav-links a{color:#fff;text-decoration:none;font-weight:500}
+.logo{
+    font-size:30px;
+    font-weight:500;
+}
+.nav-links a:hover{
+    color: #d1ae7a;
+}
+.hero-content{position:relative;top:40%;text-align:center;transform:translateY(-40%)}
+.hero-content .small{opacity:.8}
+.hero-content h1{font-size:3rem;margin:10px 0}
+.lead{max-width:600px;margin:0 auto 20px;opacity:.9}
+.btn{background:#c59d5f;color:#fff;padding:10px 20px;margin:0 10px;text-decoration:none;display:inline-block;transition:opacity .3s}
+.btn:hover{
+    background: white;
+    color: black;
+}
+
+/* .outline{background:transparent;border:2px solid #fff} */
+
+.about-us,.location{
+    display:flex;
+    margin: 30px 60px ;
+    gap:50px;
+    align-items:center}
+.about-us .about-img img,.location .loc-img img{width:100%;display:block}
+p{
+ color: #b2a7a7;
+}
+.our-baking h2{text-align:center;font-size:2rem;margin-bottom:10px}
+.our-baking .subtext{text-align:center;color:#666;margin-bottom:40px}
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px
+}
+.prod img{width:100%}
+.prod h3{text-align:center;margin:10px 0}
+
+/* Contact */
+.contact-section{display:flex;gap:30px}
+.contact-info{flex:1}
+.contact-list{list-style:none;margin-top:20px;display:grid;gap:10px}
+.contact-map iframe{width:100%;height:300px;border:0}
+.contact-info h2{margin-bottom:10px}
+
+/* Footer */
+.footer{background:#333;color:#ccc;padding:40px 0}
+.footer-container{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.footer-container h4{margin-bottom:10px;color:#fff}
+.footer-container ul{list-style:none;line-height:1.8}
+.footer-bottom{border-top:1px solid #444;margin-top:20px;padding-top:20px;text-align:center}
+.footer-bottom .logo{font-size:2rem;margin-bottom:10px;color:#fff}
+.footer-bottom .socials{margin-top:10px}
